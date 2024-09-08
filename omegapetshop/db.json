@@ -1,0 +1,32 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "email": "store@example.com",
+        "password": "store123",
+        "role": "store"
+      },
+      {
+        "id": 2,
+        "email": "customer@example.com",
+        "password": "customer123",
+        "role": "customer"
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Cama para perros",
+        "description": "Cama cómoda para perros grandes",
+        "price": 50
+      },
+      {
+        "id": 2,
+        "name": "Comida para gatos",
+        "description": "Paquete de comida para gatos",
+        "price": 20
+      }
+    ],
+    "orders": []
+  }
+  

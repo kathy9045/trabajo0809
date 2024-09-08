@@ -1,0 +1,142 @@
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .logo a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .search-bar {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .search-bar form {
+    display: flex;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #f8c13d;
+    color: #333;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav li {
+    position: relative;
+    margin: 0 10px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav a:hover {
+    background-color: #555;
+    border-radius: 4px;
+  }
+  
+  .categories-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .categories-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    color: #333;
+    top: 40px; /* Ajusta según tu diseño */
+    left: 0;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Asegúrate de que el menú esté por encima de otros elementos */
+  }
+  
+  .categories-dropdown.open {
+    display: block;
+  }
+  
+  .categories-dropdown.closed {
+    display: none;
+  }
+  
+  .categories-dropdown ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .categories-dropdown li {
+    padding: 10px;
+  }
+  
+  .categories-dropdown a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .categories-dropdown a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .nav {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .nav ul {
+      flex-direction: column;
+    }
+  
+    .nav li {
+      margin: 0;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
